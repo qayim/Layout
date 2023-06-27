@@ -26,8 +26,6 @@ export default function App() {
   const [box, setBox] = useState(false);
   //enable randomize
   const [randomEnabler, setRandomEnabler] = useState(false)
-  //randomize box sizes
-  const [randomSize, setRandomSize] = useState(0);
 
   //function to randomize size of box
   const randomBoxSize = () =>{
